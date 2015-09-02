@@ -12,7 +12,7 @@ class Theme extends BaseV1\Theme{
             'site: owner' => 'Fundação Cultural de Blumenau',
             'site: by the site owner' => 'pela Fundação Cultural de Blumenau',
 
-            'home: title' => "Bem-vindo plataforma " . App::i()->siteName,
+            'home: title' => App::i()->siteName,
             'home: abbreviation' => "FCBlu",
 //            'home: colabore' => "Colabore com o Mapas Culturais",
             'home: welcome' => "
